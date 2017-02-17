@@ -13,6 +13,6 @@ episodes = new QJsonTableModel( header, this );
 ui->episodeTableView->setModel( episodes );
         
 QString json = "[{\"series\":\"Black Sails\",\"season\":1,\"episode\":1,\"title\":\"I.\",\"air_date\":\"2014-01-25\"},{\"series\":\"Black Sails\",\"season\":1,\"episode\":2,\"title\":\"II.\",\"air_date\":\"2014-02-01\"}]";
-QJsonDocument jsonDocument = QJsonDocument::fromJson(stdout.toUtf8());
+QJsonDocument jsonDocument = QJsonDocument::fromJson( json );
 episodes->setJson( jsonDocument );
 ```        
