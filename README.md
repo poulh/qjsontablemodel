@@ -1,4 +1,4 @@
-# qjsontablemodel
+# QJsonTableModel
 
 Subclass of QT's QAbstractTableModel. Takes json in 'arrays of hashes'.  Used to populate a QTableView.
 
