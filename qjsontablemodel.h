@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QVector>
-#include <QPair>
+#include <QMap>
 #include <QAbstractTableModel>
 #include <QJsonDocument>
 #include <QJsonArray>
