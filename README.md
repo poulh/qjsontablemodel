@@ -1,6 +1,6 @@
 # qjsontablemodel
 
-QT Table Model which takes json in 'arrays of hashes'.
+Subclass of QT's QAbstractTableModel. Takes json in 'arrays of hashes'.  Used to populate a QTableView.
 
 First create a header which maps each column to an index in your json object.  The order of the headings will match the Table.
 ```c++
